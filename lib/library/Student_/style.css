@@ -1,0 +1,540 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/*-------------------------------Main code   INDEX ---------------------------------------------------------*/
+
+.wrapper
+{
+	height: 660px;
+	width: 1350px;
+	/*background-color: red;*/
+}
+header
+{
+	height: 130px;
+	width: 1340px;
+	background-color: white;
+	padding: 10px;
+}
+section
+{
+	height: 550px;
+
+	width: 1361px;
+	background-color: grey;
+}
+footer
+{
+	
+	width: 1361px;
+	background-color: black;
+}
+.logo
+{
+	float :left;
+	padding-left: 20px;
+
+}
+.logo img 
+{
+	padding-left: 80px;
+}
+
+li a
+{
+	color: black;
+	text-decoration: none;
+}
+/*nav
+{
+	float: right;
+	word-spacing: 30px;
+	padding: 20px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}*/
+
+section .sec_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url("images/1.jpg");
+}
+.box
+{
+	height: 300px;
+	width: 450px;
+	background-color: #030002;
+	margin: 70px auto;
+	opacity: .6;
+	color: white;
+}
+
+/*--------------------------------st_login-----------------------------*/
+
+.log_img
+{
+	
+    
+    background-image: url("images/login_bg.jpg");
+    background-size: cover;
+}
+
+.box1
+{
+	height: 450px;
+	width: 450px;
+	background-color: #D3D3D3;
+	margin: 70px auto;
+	opacity: .;
+	color: white;
+	padding: 20px;
+}
+input
+{
+	height: 25px;
+	width: 300px;
+
+}
+/*------------------------------registration--------------------*/
+.reg_img
+{
+	height: 600px;
+	margin-top: 20px;
+	background-image: url("images/4.jpg");
+	background-size: cover;
+}
+.box2
+{
+	height: 589px;
+	width: 450px;
+	background-color: #36454F;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+
+  
+  
+  .logo {
+    float: left;
+    margin-left: 28px;
+    margin-top: 2px;
+    font-size: 1.5em;
+    height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  } 
+  @media(max-width: 768px) {
+      .logo {
+        margin-left: 5px;
+    }
+}
+  #navbar {
+    background: white !important; /* Change background color to white */
+    position: fixed;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100vw;
+    z-index: 10;
+}
+.navbar.navbar-inverse {
+    background-color: white; /* Change background color to white */
+    border-color: white; /* Optionally, if you want to match the border color */
+    color: black; /* Optionally, if you want to change text color */
+}
+nav.navbar.navbar-inverse .navbar-nav > li > a {
+    color: #891635; /* Change text color to #891635 */
+}
+nav.navbar.navbar-inverse .navbar-nav > li > a:hover {
+    color: black; /* Change text color to white when hovered over */
+}
+
+
+#navbar ul {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-right: 8px; 
+    margin-top: -2px;
+    text-align: right;
+    transition: transform 0.5s ease-out;
+    -webkit-transition: transform 0.5s ease-out;
+}
+
+#navbar li a {
+    color: black; /* Change text color to black */
+    display: block;
+    font-size: 0.7em;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+#navbar li a:hover {
+    color: rgb(28, 121, 184);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+/* Animated Bottom Line */
+#navbar li a:before, #navbar li a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -1px;
+    background: rgb(13, 26, 38);
+}
+
+#navbar li a:before {
+    left: 0;
+    transition: 0.5s;
+}
+
+#navbar li a:hover:before {
+    background: rgb(13, 26, 38);
+    width: 100%;
+    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+}
+
+section
+{
+	width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+footer
+{
+	width: 1361px;
+	background-color: White;
+}
+
+
+/*--------------------------------st_login-----------------------------*/
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  background: #fff;
+  padding: 40px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  perspective: 2700px;
+  margin:80px auto 0;
+}
+
+.container .cover{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 1s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+}
+.container #flip:checked ~ .cover{
+  transform: rotateY(-180deg);
+}
+ .container .cover .front,
+ .container .cover .back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.cover .back{
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.container .cover::before,
+.container .cover::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #921831;
+  opacity: 0.5;
+  z-index: 12;
+}
+.container .cover::after{
+  opacity: 0.3;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.container .cover img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+.container .cover .text{
+  position: absolute;
+  z-index: 130;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cover .text .text-1,
+.cover .text .text-2{
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.cover .back .text .text-1,
+.cover .back .text .text-2{
+  transform: rotateY(180deg);
+}
+
+.cover .text .text-2{
+  font-size: 15px;
+  font-weight: 500;
+}
+.container .forms{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+.container .form-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .login-form,
+.form-content .signup-form{
+  width: calc(100% / 2 - 25px);
+}
+.forms .form-content .title{
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .form-content .title:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background: #921831;
+}
+.forms .signup-form  .title:before{
+  width: 20px;
+}
+.forms .form-content .input-boxes{
+  margin-top: 30px;
+}
+.forms .form-content .input-box{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.form-content .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.form-content .input-box input:focus,
+.form-content .input-box input:valid{
+  border-color: #921831;
+}
+.form-content .input-box i{
+  position: absolute;
+  color: #921831  ;
+  font-size: 17px;
+}
+.forms .form-content .text{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .form-content .text a{
+  text-decoration: none;
+}
+.forms .form-content .text a:hover{
+  text-decoration: underline;
+}
+.forms .form-content .button{
+  color: #fff;
+  margin-top: 40px;
+}
+.forms .form-content .button input{
+  color: #fff;
+  background: #921831;
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.forms .form-content .button input:hover{
+  background: #921831;
+}
+.forms .form-content label{
+  color: #921831;
+  cursor: pointer;
+}
+.forms .form-content label:hover{
+  text-decoration: underline;
+}
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text{
+  text-align: center;
+  margin-top: 25px;
+}
+.container #flip{
+  display: none;
+}
+@media (max-width: 730px) {
+  .container .cover{
+    display: none;
+  }
+  .form-content .login-form,
+  .form-content .signup-form{
+    width: 100%;
+  }
+  .form-content .signup-form{
+    display: none;
+  }
+  .container #flip:checked ~ .forms .signup-form{
+    display: block;
+  }
+  .container #flip:checked ~ .forms .login-form{
+    display: none;
+  }
+}
+
+.table-bordered thead th,
+.table-bordered tbody td,
+.table-bordered tfoot th {
+    border-color: black !important;
+}

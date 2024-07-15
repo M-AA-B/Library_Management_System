@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.gallery div {
+    width: 100%;
+    padding: 10px;
+    flex: none;
+}
+.gallery div img {
+    width: 100%;
+}
+img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+#image2,#image3, #image4{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#backBtn, #nextBtn {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
